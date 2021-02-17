@@ -8,7 +8,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color:#8b8b8b8b;
+    color:#1f1f1f8b;
 }
 
 h1,
@@ -46,6 +46,12 @@ h6{
     width: 50%;
 }
 
+hr{
+    margin: 30px;
+    border: 1px solid transparent;
+    background-color: #8b8b8b8b;
+}
+
 /* buttons */
 .btn{
     display: inline-block;
@@ -60,7 +66,7 @@ h6{
 }
 
 .btn.btn-green{
-    background-color: green;
+    background-color: #44c744;
     border: 1px solid transparent;
 }
 
@@ -71,7 +77,7 @@ h6{
 /* HEADER */
 header {
     line-height: 80px;
-    background-color: black;
+    background-color: #264d9c;
     text-transform: uppercase;
     font-size: 12px;
 }
@@ -99,7 +105,7 @@ header a{
 }
 
 header a:not(btn):hover{
-    color: yellow;
+    color: red;
 }
 
 header a.btn{
@@ -111,7 +117,7 @@ header a.btn{
 /* jumbotron */
 .jumbotron{
     height: 480px;
-    background-color: black;
+    background-color: #264d9c;
     background-image: url(../img/background-header.png);
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -141,11 +147,44 @@ header a.btn{
     height: 100px;
     padding-top: 20px;
     text-align: center;
-    background-color: gray;
+    background-color: lightgray;
 }
 
-.headline{
+.headline-section h3{
     font-size: 20px;
     color: black;
     margin-bottom: 10px;
+}
+
+.headline-section h4{
+    color: #1f1f1f8b;
+}
+
+/* CONTENT */
+.col{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.col:nth-child(2) img{
+    
+}
+
+.col:nth-child(3){
+    margin-right: 0;
+}
+
+.container .col img{
+    height: 150px;
+    margin: 40px 30%;
+}
+
+.container .col h3{
+    color: #44c744;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container .col h4{
+    text-align: center;
 }
