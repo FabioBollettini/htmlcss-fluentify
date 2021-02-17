@@ -135,3 +135,17 @@ header a.btn{
     font-size: 48px;
     color: white;
 }
+
+/* headline */
+.cont-headline{
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+.headline{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
