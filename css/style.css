@@ -148,7 +148,7 @@ header a.btn{
 }
 
 /* headline */
-.little-container{
+.gray-bg{
     height: 100px;
     padding-top: 20px;
     text-align: center;
@@ -194,7 +194,7 @@ header a.btn{
     margin-left: 10%;
 }
 
-.container .section-right h2{
+.container .section-right h2, .gray-bg h2{
     color: black;
 }
 
@@ -204,6 +204,10 @@ header a.btn{
 }
 
 /* FOOTER */
-footer .little-container{
-    
+.gray-bg .container{
+    text-align: left;
+}
+
+.gray-bg .container .float-right{
+    float: right;
 }
