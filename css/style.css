@@ -150,6 +150,7 @@ header a.btn{
 /* headline */
 .gray-bg{
     height: 100px;
+    vertical-align: middle;
     padding-top: 20px;
     text-align: center;
     background-color: lightgray;
@@ -178,8 +179,9 @@ header a.btn{
 }
 
 .container .col img{
+    display: block;
     height: 150px;
-    margin: 40px 30%;
+    margin: auto;
 }
 
 .container .col h3{
@@ -204,10 +206,32 @@ header a.btn{
 }
 
 /* FOOTER */
-.gray-bg .container{
+footer{
+    line-height: 100px;
+    position: relative;
+}
+
+footer .gray-bg{
+    padding-top: 0;
+}
+
+.gray-bg .container .footer-section.float-left{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.gray-bg .container .w-50.float-left{
     text-align: left;
 }
 
-.gray-bg .container .float-right{
-    float: right;
+.footer-section .btn.btn-green.btn-big,
+.btn-help .btn.btn-green{
+    line-height: 1;
+}
+
+.btn-help{
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
 }
